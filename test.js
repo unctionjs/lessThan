@@ -1,22 +1,22 @@
 /* eslint-disable no-magic-numbers */
-import {test} from "tap"
+import {test} from "tap";
 
-import lessThan from "./index"
+import lessThan from "./index";
 
 test(({same, end}) => {
   same(
     lessThan(0)(1),
     true
-  )
+  );
 
-  end()
-})
+  end();
+});
 
 test(({same, end}) => {
   same(
     lessThan(1)(0),
     false
-  )
+  );
 
-  end()
-})
+  end();
+});
