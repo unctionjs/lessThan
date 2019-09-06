@@ -1,5 +1,5 @@
 /* eslint-disable no-magic-numbers */
-import lessThan from "./index.ts";
+import lessThan from "./index";
 
 test(() => {
   expect(lessThan(0)(1)).toEqual(true);
